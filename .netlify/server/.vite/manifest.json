@@ -1,0 +1,165 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_FaSpinner.js": {
+    "file": "chunks/FaSpinner.js",
+    "name": "FaSpinner",
+    "imports": [
+      "_ssr.js",
+      "_IconBase.js"
+    ]
+  },
+  "_IconBase.js": {
+    "file": "chunks/IconBase.js",
+    "name": "IconBase",
+    "imports": [
+      "_ssr.js",
+      "_supabase.js"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js",
+    "name": "ssr"
+  },
+  "_stores.js": {
+    "file": "chunks/stores.js",
+    "name": "stores",
+    "imports": [
+      "_ssr.js",
+      "_exports.js"
+    ]
+  },
+  "_supabase.js": {
+    "file": "chunks/supabase.js",
+    "name": "supabase",
+    "css": [
+      "_app/immutable/assets/supabase.CQ56alcF.css"
+    ]
+  },
+  "_userStore.js": {
+    "file": "chunks/userStore.js",
+    "name": "userStore",
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-4/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-4/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_exports.js",
+      "_index.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_supabase.js",
+      "_IconBase.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.DJLMEDRx.css"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_supabase.js",
+      "_IconBase.js",
+      "_FaSpinner.js"
+    ]
+  },
+  "src/routes/about/+page.svelte": {
+    "file": "entries/pages/about/_page.svelte.js",
+    "name": "entries/pages/about/_page.svelte",
+    "src": "src/routes/about/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "src/routes/createQuiz/+page.svelte": {
+    "file": "entries/pages/createQuiz/_page.svelte.js",
+    "name": "entries/pages/createQuiz/_page.svelte",
+    "src": "src/routes/createQuiz/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_supabase.js",
+      "_userStore.js"
+    ]
+  },
+  "src/routes/login/+page.svelte": {
+    "file": "entries/pages/login/_page.svelte.js",
+    "name": "entries/pages/login/_page.svelte",
+    "src": "src/routes/login/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_supabase.js",
+      "_userStore.js",
+      "_IconBase.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.A5PsJwJy.css"
+    ]
+  },
+  "src/routes/quizId/[quizId]/+page.svelte": {
+    "file": "entries/pages/quizId/_quizId_/_page.svelte.js",
+    "name": "entries/pages/quizId/_quizId_/_page.svelte",
+    "src": "src/routes/quizId/[quizId]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_stores.js",
+      "_supabase.js",
+      "_FaSpinner.js"
+    ]
+  }
+}

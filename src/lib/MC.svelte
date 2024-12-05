@@ -4,6 +4,8 @@
     export let questionAnswers;
     export let handleCompare;
     export let handleClick;
+    export let attemptPerQuestion;
+    export let score;
     let alphabet=  ['A', 'B', 'C', 'D', 'E']
 
     import {onMount} from 'svelte'
@@ -21,7 +23,8 @@
 
 <section class="text-center">
     <h2 class="mb-6">{question}</h2>
-
+    <p>Attempt: {attemptPerQuestion}</p>
+    <p>Score: {score}</p>
     <div class="grid grid-cols-2 grid-rows-2 w-[50%] m-auto gap-2 ">
 
       {#each questionAnswers as answer, index}

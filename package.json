@@ -25,6 +25,7 @@
 	"type": "module",
 	"dependencies": {
 		"@supabase/supabase-js": "^2.45.6",
+		"@sveltejs/adapter-netlify": "^4.4.0",
 		"bcrypt": "^5.1.1",
 		"dotenv": "^16.4.5",
 		"svelte-icons": "^2.1.0",
